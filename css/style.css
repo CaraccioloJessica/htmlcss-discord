@@ -83,32 +83,49 @@ h1, .container p{
 h1{
   height: 90px;
   width: 700px;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 /* testo sotto titolo */
 .container p {
   min-height: 100px;
-  width: 620px;
-  line-height: 2;
+  width: 700px;
+  font-size: 18px;
+  line-height: 1.7;
   text-align: center;
 }
 
 /* button header */
 .btn{
-  width: 100%px;
-  min-height: 70px;
-  display:flex
+  margin-top: 10px;
+  display: flex;
 }
 
 .btn-dowload{
-  width: 350px;
-  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  min-height: 45px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.fa-down-long{
+  margin-right: 10px;
 }
 
 .btn-apri{
-  width: 350px;
-  min-height: 70px;
+  width: 250px;
+  min-height: 45px;
+  background-color: #23272A;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
 }
 
 /* main section*/
