@@ -261,20 +261,31 @@ h1{
 }
 
 h3{
-  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
   min-height: 100px;
+  font-size: 30px;
+  color: #23272A;
 
-  /* debug */
-  background-color: #f4b797;
+  /* stars background */
+  background-image: url("../img/stars.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
 .btn-scarica{
-  width: 500px;
-  min-height: 100px;
-
-  /* debug */
-  background-color: rgb(66, 131, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  min-height: 45px;
+  text-decoration: none;
+  background-color: #7289DA;
+  color: #fff;
+  border-radius: 30px;
 }
 
 /* footer */
