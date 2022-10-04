@@ -219,27 +219,34 @@ h1{
 }
 
 .title-videocall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1000px;
   min-height: 100px;
-
-  /* debug */
-  background-color: #E78C85;
+  font-size: 50px;
+  margin-top: 40px;
+  color: #23272A
 }
 
 .videocall{
-  width: 1000px;
-  min-height:100px;
-
-  /* debug */
-  background-color: #FFF4B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 930px;
+  min-height:60px;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #23272A
 }
 
 .video-img{
   width: 1000px;
-  min-height: 500px;
-
-  /* debug */
-  background-color: #fff;
+  min-height: 550px;
+  background-image: url("../img/item4-big.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* call to action */
