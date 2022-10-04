@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Whitney', sans-serif;
 }
 
 /* header pagina */
@@ -83,7 +83,7 @@ h1, .container p{
 h1{
   height: 90px;
   width: 700px;
-  font-size: 45px;
+  font-size: 43px;
 }
 
 /* testo sotto titolo */
@@ -126,6 +126,7 @@ h1{
   color: #fff;
   border-radius: 30px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 /* main section*/
@@ -133,41 +134,43 @@ h1{
 .channel{
   width: 100%;
   min-height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ffffff;
+  padding-top: 50px;
+}
 
-  /* debug */
-  background-color: #B0D7DE;
+
+.img{
+  display: inline-block;
+  width: 50%;
+  min-height: 450px;
+  margin-left: 120px;
+  background-image: url("../img/item1.svg");
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.title-section{
+  width: 26%;
+  min-height: 200px;
+  margin: 25px 0 20px 40px;
+  font-size: 48px;
+  color: #23272A;
+  display: inline-block;
+}
+
+.description{
+  width: 26%;
+  min-height: 200px;
+  margin-left: 40px;
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #23272A;
 }
 
 /* section reverse */
 .reverse{
-  flex-direction: row-reverse;
-}
-
-.img{
-  width: 500px;
-  min-height: 450px;
-
-  /* debug */
-  background-color: #FFF4B3;
-}
-
-.title-section{
-  width: 500px;
-  min-height: 100px;
-
-  /* debug */
-  background-color: #fff;
-}
-
-.description{
-  width: 500px;
-  min-height: 450px;
-
-  /* debug */
-  background-color: #FFC619;
+  background-color: #F6F6F6;
 }
 
 /* videocall section */
@@ -178,9 +181,7 @@ h1{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-  /* debug */
-  background-color: #B0D7DE;
+  background-color: #F6F6F6;
 }
 
 .title-videocall{
@@ -215,9 +216,7 @@ h1{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-  /* debug */
-  background-color: #B0D7DE;
+  background-color: #F6F6F6;
 }
 
 h3{
@@ -246,9 +245,7 @@ footer{
   align-items: center;
   flex-wrap: wrap;
   padding: 0 60px;
-
-  /* debug */
-  background-color: #292841;
+  background-color: #23272A;
 }
 
 .icon-section{
