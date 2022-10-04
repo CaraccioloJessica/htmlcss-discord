@@ -131,6 +131,7 @@ h1{
 
 /* main section*/
 
+/* discord channel section */
 .channel{
   width: 100%;
   min-height: 600px;
@@ -168,10 +169,50 @@ h1{
   color: #23272A;
 }
 
-/* section reverse */
+/* channel section reverse */
 .reverse{
+  width: 100%;
+  min-height: 600px;
+  padding-top: 50px;
   background-color: #F6F6F6;
 }
+
+
+
+
+
+/* community section */
+.img-comm{
+  display: inline-block;
+  width: 50%;
+  min-height: 450px;
+  margin-left: 120px;
+  background-image: url("../img/item3.svg");  
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.title-comm{
+  width: 26%;
+  min-height: 120px;
+  margin: 25px 0 20px 40px;
+  font-size: 48px;
+  color: #23272A;
+  display: inline-block;
+}
+
+.description-comm{
+  width: 26%;
+  min-height: 200px;
+  margin-left: 40px;
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 19px;
+  color: #23272A;
+}
+
+
+
 
 /* videocall section */
 .videocontainer{
