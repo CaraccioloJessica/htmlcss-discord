@@ -318,11 +318,11 @@ h4{
 }
 
 #ita, .fa-angle-down{
-  color: #fff;
+  color: #eee;
 } 
 
 .fa-twitter, .fa-instagram, .fa-square-facebook, .fa-youtube{
-  color: #fff;
+  color: #eee;
   margin-right: 20px;
   margin-top: 20px;
   cursor: pointer;
@@ -332,12 +332,25 @@ h4{
 /* prodotto */
 .product{
   width: 15%;
-  min-height: 300px;
-
-  /* debug */
-  background-color: rgb(21, 160, 160); 
+  min-height: 300px; 
+  display: flex;
+  flex-direction: column;
 }
 
+h5{
+  color: #6D85D7;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #eee;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* compagnia */
 .company{
   width: 15%;
   min-height: 300px;
