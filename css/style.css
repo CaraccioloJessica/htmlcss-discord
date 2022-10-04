@@ -296,18 +296,40 @@ footer{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 60px;
+  padding: 0 130px;
   background-color: #23272A;
 }
 
+/* sezione lingua */
 .icon-section{
-  width: 15%;
+  width: 25%;
   min-height: 300px;
-
-  /* debug */
-  background-color: aqua;
 }
 
+h4{
+  color: #6D85D7;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+#flag{
+  width: 20px;
+  height: auto;
+}
+
+#ita, .fa-angle-down{
+  color: #fff;
+} 
+
+.fa-twitter, .fa-instagram, .fa-square-facebook, .fa-youtube{
+  color: #fff;
+  margin-right: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+/* prodotto */
 .product{
   width: 15%;
   min-height: 300px;
