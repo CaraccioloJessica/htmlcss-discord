@@ -72,14 +72,26 @@ body{
   height: 450px;
 }
 
-h1{
-  height: 80px;
-  width: 700px;
+/* titolo */
+h1, .container p{
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+h1{
+  height: 90px;
+  width: 700px;
+  font-size: 40px;
+}
+
+/* testo sotto titolo */
 .container p {
   min-height: 100px;
-  width: 700px;
+  width: 620px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* button header */
