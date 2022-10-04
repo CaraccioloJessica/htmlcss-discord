@@ -6,66 +6,54 @@
 
 /* header pagina */
 .navigation-menu{
-  height: 80px;
+  height: 60px;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-
-  /* debug */
-  background-color: #F4B797;
+  justify-content: center;
+  align-items: center;
+  background-color: #255EE9;
 }
 
 .logo{
-  height: 100%;
+  height: 60px;
   width: 20%;
-
-  /* debug */
-  background-color: #255EE9;
+  text-align: end;
+  vertical-align: middle;
+  line-height: 6;
 }
 
 .menu{
-  height: 100%;
+  height: px;
   width: 60%;
-
-  /* debug */
-  background-color: #E78C85;
 }
 
 .button-accedi{
-  height: 100%;
+  height: 60px;
   width: 20%;
-
-  /* debug */
-  background-color: #255EE9;
 }
 
 /* container intestazione */
 .container{
-  height: 450px;
+  height: 480px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  /* debug */
-  background-color: #f4b797;
+  /* img background */
+  background-image: url("../img/jumbo.png");
+  background-size: 100%;
 }
 
 h1{
   height: 80px;
   width: 700px;
-
-  /* debug */
-  background-color: #fff;
 }
 
 .container p {
   min-height: 100px;
   width: 700px;
-
-  /* debug */
-  background-color: #E78C85;
 }
 
 /* button header */
@@ -78,17 +66,11 @@ h1{
 .btn-dowload{
   width: 350px;
   min-height: 70px;
-
-  /* debug */
-  background-color:#FFF4B3;
 }
 
 .btn-apri{
   width: 350px;
   min-height: 70px;
-
-  /* debug */
-  background-color: #FFC619;
 }
 
 /* main section*/
