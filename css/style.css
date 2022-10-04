@@ -10,14 +10,14 @@ body{
 
 /* header pagina */
 .navigation-menu{
-  height: 60px;
+  height: 70px;
   width: 100%;
   display: flex;
   background-color: #255EE9;
 }
 
 .logo{
-  height: 60px;
+  height: 70px;
   width: 20%;
   display: flex;
   justify-content: flex-end;
@@ -25,7 +25,7 @@ body{
 }
 
 .menu{
-  height: 60px;
+  height: 70px;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -40,13 +40,25 @@ body{
 }
 
 .button-accedi{
-  height: 60px;
+  height: 70px;
   width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-accedi a {
+  text-decoration: none;
+  color:#000;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
 }
 
 /* container intestazione */
 .container{
-  height: 480px;
+  height: 450px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -55,7 +67,9 @@ body{
 
   /* img background */
   background-image: url("../img/jumbo.png");
-  background-size: 102%;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
 }
 
 h1{
