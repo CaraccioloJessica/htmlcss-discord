@@ -139,7 +139,6 @@ h1{
   padding-top: 50px;
 }
 
-
 .img{
   display: inline-block;
   width: 50%;
@@ -171,48 +170,31 @@ h1{
 
 /* channel section reverse */
 .reverse{
-  width: 100%;
-  min-height: 600px;
-  padding-top: 50px;
   background-color: #F6F6F6;
 }
 
+.img-reverse{
+  background-image: url("../img/item2.svg");
+}
 
-
-
+.title-reverse{
+  min-height: 120px;
+  font-size: 48px;
+}
 
 /* community section */
 .img-comm{
-  display: inline-block;
-  width: 50%;
-  min-height: 450px;
-  margin-left: 120px;
-  background-image: url("../img/item3.svg");  
-  background-repeat: no-repeat;
-  float: left;
+  background-image: url("../img/item3.svg");
 }
 
 .title-comm{
-  width: 26%;
-  min-height: 120px;
-  margin: 25px 0 20px 40px;
+  min-height: 120px;  
   font-size: 48px;
-  color: #23272A;
-  display: inline-block;
 }
 
-.description-comm{
-  width: 26%;
-  min-height: 200px;
-  margin-left: 40px;
-  display: inline-block;
-  line-height: 1.5;
+.comm{
   font-size: 19px;
-  color: #23272A;
 }
-
-
-
 
 /* videocall section */
 .videocontainer{
